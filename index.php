@@ -144,7 +144,7 @@ if (isset($_SESSION['login_admin'])) {
                             </div>
                         </div>
 
-                        <div class="row form-group" style="margin-bottom: 1rem;">
+                        <div class="row form-group" style="padding-top: 1rem;">
                             <div class="col-md-12">
                                 <input type="submit" name="submit" value="LOGIN" class="btn btn-primary py-2 px-4 text-white">
                             </div>
