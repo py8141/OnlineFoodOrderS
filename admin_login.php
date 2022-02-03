@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['login_admin'])) { //if manager logged in
+    header('location: admin.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +17,7 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-12 order-md-1" data-aos="fade-up">
